@@ -1,0 +1,12 @@
+names:
+- top-surface
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: exact-top-surface-of-blue-box
+  url: https://universe.roboflow.com/charak/exact-top-surface-of-blue-box/dataset/2
+  version: 2
+  workspace: charak
+test: ../test/images
+train: ../train/images
+val: ../valid/images
