@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bc', 'gc', 'rc', 'yc']
+
+roboflow:
+  workspace: charak
+  project: sequence_dobot-xvqsw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/charak/sequence_dobot-xvqsw/dataset/1
